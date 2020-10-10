@@ -1608,3 +1608,20 @@ a.ant-btn {
 
 
 /* 当前售价区域 结束 */
+@media (max-width: 429px){
+    .common-banner .banner-inner .title-family{
+        font-size: 48px;
+    }
+    .icon.app-down-icon{
+        font-size: 8em;
+    }
+    .common-navbar nav a.ant-dropdown-link{
+        display: none;
+    }
+    .download.waist{
+        display: none;
+    }
+    .common-footer .social{
+        display: none;
+    }
+}
